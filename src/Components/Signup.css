@@ -1,0 +1,100 @@
+.container6{
+    background-color: steelblue;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    
+}
+.signup{
+    background-color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 30%;
+}
+.signup input{
+    display: flex;
+    flex-direction: column;
+    font-size: xx-large;
+    margin-left: 20%;
+    border-radius: 30%;
+    box-shadow:  10px 8px 10px #1a1a1a;
+    margin-top: 5%;
+}
+.signup button{
+    font-size: xx-large;
+    font-weight: bold;
+    background-color: rgb(24, 118, 124);
+    border-radius: 30%;
+    box-shadow:  10px 8px 10px #1a1a1a;
+    margin-top: 5%;
+    cursor: pointer;
+}
+.signup button:hover{
+    background-color: chocolate;
+    color: white;
+    font-weight: bold;
+}
+.signup h2{
+    cursor: pointer;
+}
+.signup h1{
+    margin-left: 5%;
+}
+@media screen and (max-width: 480px) {
+    .container6{
+        width: 56vh;
+        height: 89vh;
+    }
+    .signup input{
+        font-size: medium;
+    }
+    .signup{
+        height: 70vh;
+        width: 45vh;
+        margin-left: 6%;
+    }
+    .signup button{
+        font-size: large;
+    }
+    .signup p{
+        margin-top: 5%;
+    }
+    .signup h2{
+        margin-top: 5%;
+    }
+    .signup1{
+        margin-top: 8%;
+    }
+    .signup1 h1{
+        margin-bottom: 8%;
+    }
+}
+@media screen and (max-width: 920px) {
+    .container6{
+        width: 69vh;
+        height: 93vh;
+    }
+    .signup input{
+        font-size: xx-large;
+    }
+    .signup{
+        height: 70vh;
+        width: 50vh;
+        margin-left: 6%;
+        margin-left: 10%;
+    }
+    .signup button{
+        font-size: xx-large;
+    }
+    .signup p{
+        margin-top: 5%;
+    }
+    .signup h2{
+        margin-top: 5%;
+    }
+    .signup1{
+        margin-top: 8%;
+    }
+    .signup1 h1{
+        margin-bottom: 8%;
+    }
+}

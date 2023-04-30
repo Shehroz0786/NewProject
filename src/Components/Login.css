@@ -1,0 +1,98 @@
+.container5{
+    background-color: steelblue;
+    padding-bottom: 2%;
+    padding-top: 1%;
+    height: 86vh;
+    
+}
+.login1{
+    background-color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 30%;
+}
+.login1 input{
+    display: flex;
+    flex-direction: column;
+    font-size: xx-large;
+    margin-left: 20%;
+    border-radius: 30%;
+    box-shadow:  10px 8px 10px #1a1a1a;
+    margin-top: 5%;
+}
+.login1 button{
+    font-size: xx-large;
+    font-weight: bold;
+    background-color: rgb(24, 118, 124);
+    border-radius: 30%;
+    box-shadow:  10px 8px 10px #1a1a1a;
+    margin-top: 5%;
+    cursor: pointer;
+}
+.login1 button:hover{
+    background-color: chocolate;
+    color: white;
+    font-weight: bold;
+}
+.login1 h2{
+    cursor: pointer;
+}
+@media screen and (max-width: 480px) {
+    .container5{
+        width: 56vh;
+        height: 89vh;
+    }
+    .login1 input{
+        font-size: medium;
+    }
+    .login1{
+        height: 40vh;
+        width: 45vh;
+        margin-left: 6%;
+    }
+    .login1 button{
+        font-size: large;
+    }
+    .login1 p{
+        margin-top: 5%;
+    }
+    .login1 h2{
+        margin-top: 5%;
+    }
+    .login{
+        margin-top: 8%;
+    }
+    .login h1{
+        margin-bottom: 8%;
+    }
+}
+@media screen and (max-width: 920px) {
+    .container5{
+        width: 69vh;
+        height: 93vh;
+    }
+    .login1 input{
+        font-size: xx-large;
+    }
+    .login1{
+        height: 47vh;
+        width: 50vh;
+        margin-left: 6%;
+        margin-left: 10%;
+    }
+    .login1 button{
+        font-size: xx-large;
+    }
+    .login1 p{
+        margin-top: 5%;
+    }
+    .login1 h2{
+        margin-top: 5%;
+    }
+    .login{
+        margin-top: 8%;
+    }
+    .login h1{
+        margin-bottom: 8%;
+    }
+}

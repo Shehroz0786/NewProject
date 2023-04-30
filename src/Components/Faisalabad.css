@@ -1,0 +1,188 @@
+.container7{
+    background-color: rgba(252, 232, 209, 0.801);
+    padding-top: 3%;
+}
+.isl{
+    display: flex;
+    flex-direction: column;
+}
+.search{
+    background-color: steelblue;
+    box-shadow:  10px 8px 10px #1a1a1a;
+    width: 80%;
+    border-radius: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-left: 5%;
+}
+.col11 h5{
+    margin-left: 8%;
+}
+.flag11{
+    font-size: large;
+    box-shadow:  10px 8px 10px #1a1a1a;
+    background-color: rgba(252, 232, 209, 0.801);
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.flag22{
+    font-size: medium;
+    box-shadow:  10px 8px 10px #1a1a1a;
+    background-color: rgba(252, 232, 209, 0.801);
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.flag33 button{
+    font-size: large;
+    box-shadow:  10px 8px 10px #1a1a1a;
+    background-color: rgba(252, 232, 209, 0.801);
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.flag44 button{
+    font-size: large;
+    box-shadow:  10px 8px 10px #1a1a1a;
+    background-color: rgba(252, 232, 209, 0.801);
+    border-radius: 30%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.check input{
+  margin-top: 3%;
+  margin-bottom: 3%;
+  margin-left: -25%;
+}
+h6{
+    margin-top: 12%;  
+}
+h3{
+    margin-left:-20%;
+}
+.ticket0{
+    padding-top:3%;
+    padding-bottom:3%;
+    background-color: white;
+    border-radius: 10%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    box-shadow:  10px 8px 10px #1a1a1a;
+}
+.ticket img{
+    width: 70%;
+    border-radius: 10%;
+    margin-left: -10%;
+}
+.star{
+    display: flex;
+    flex-direction: row;
+}
+.star span{
+    color: yellow;
+}
+.star0{
+    margin-left: -5%;
+}
+.star0 p{
+    font-size: x-small;
+    text-align: left;
+}
+.ss{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20%;
+}
+.last{
+   margin-top:-1%;
+}
+.last button{
+    font-size: small;
+    font-weight: bold;
+    background-color: steelblue;
+    color: white;
+    border-radius: 20%;
+    box-shadow:  10px 8px 10px #1a1a1a;
+}
+.last p{
+    font-size: smaller;
+}
+.ss button{
+    font-size: small;
+    margin-top: 15%;
+    margin-left: 3%;
+    background-color: blue;
+}
+.aa h6{
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+@media screen and (max-width: 480px) {
+    .container7{
+        width: 57vh;
+    }
+   .h3 h3{
+    font-size:large;
+    margin-left: 2%;
+   }
+   .ticket0{
+    margin-left: 10%;
+   }
+   .star h5{
+    font-size: large;
+    margin-left: 8%;
+   }
+   .star0 p{
+    margin-left: 8%;
+   }
+   .ss button{
+    margin-bottom: 5%;
+   }
+   .aa{
+    margin-left: -20%;
+   }
+   .aa h6{
+    margin-left: -5%;
+   }
+}
+@media screen and (max-width: 920px) {
+    .container7{
+        width: 70vh;
+    }
+   .h3 h3{
+    font-size:large;
+    margin-left: 2%;
+   }
+   .ticket0{
+    margin-left: 10%;
+   }
+   .star h5{
+    font-size: large;
+    margin-left: 8%;
+   }
+   .star0 p{
+    margin-left: 8%;
+   }
+   .ss button{
+    margin-bottom: 5%;
+   }
+   .aa{
+    margin-left: -20%;
+   }
+   .aa h6{
+    margin-left: -5%;
+   }
+   .flag11{
+    font-size: xx-large;
+   }
+   .flag22{
+    font-size: xx-large;
+   }
+   .flag33 button{
+    font-size: xx-large;
+   }
+  .flag44 button{
+    font-size: xx-large;
+  }
+  .col11 h5{
+    font-size: xx-large;
+  }
+}

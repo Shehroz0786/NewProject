@@ -1,0 +1,40 @@
+.container3{
+    background-color: rgba(252, 232, 209, 0.801);
+    padding-bottom: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.about1 h2{
+    margin-right: 10%;
+}
+.about1 p{
+    text-align: left;
+    margin-left: 15%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 5%;
+}
+.about2 h2{
+    margin-right: 10%;
+}
+.about2 h5{
+    margin-right: 10%;
+    margin-top: 3%;
+}
+.about img{
+    width: 30%;
+    height: 50%;
+    border-radius: 50%;
+    margin-right: 8%;
+    margin-top: 3%;
+}
+@media screen and (max-width: 480px) {
+    .about1 p{
+        margin-left: 0%;
+    }
+}
+@media screen and (max-width: 920px) {
+    .about1 p{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+}

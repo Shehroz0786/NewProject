@@ -1,0 +1,106 @@
+.container1{
+    background-color: rgb(12, 91, 97);
+}
+.col img{
+    width: 30%;
+    margin-top: 12%;
+    margin-left: -40%;
+    cursor: pointer;
+}
+.col p{
+   font-weight: bold;
+   margin-left: 10%;
+   margin-top: 5%;
+   text-align: left;
+}
+.col h5{
+    margin-left: -45%;
+    cursor: pointer;
+}
+.col h6{
+    margin-left: -25%;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: -1%;
+}
+.icon{
+    margin-left: -30%;
+}
+.fb{
+    margin-right: 5%;
+    cursor: pointer;
+}
+.twe{
+    margin-right: 5%;
+    cursor: pointer;
+}
+.insta{
+    margin-right: 5%;
+    cursor: pointer;
+}
+.col1{
+    margin-top: 5%;
+}
+.col1 p{
+    margin-left: 35%;
+    cursor: pointer;
+}
+
+.col2{
+    margin-top: 5%;
+}
+.col2 input{
+    margin-top: 2%;
+    margin-bottom: 5%;
+    background-color: rgba(252, 232, 209, 0.801);
+    box-shadow:  10px 8px 10px #1a1a1a;
+}
+.col2 textarea{
+    background-color: rgba(252, 232, 209, 0.801);
+    box-shadow:  10px 8px 10px #1a1a1a;
+}
+.row1{
+    background-color: rgb(24, 118, 124);
+}
+.row1 p{
+    margin-top: 1%;
+   font-weight: bold;
+}
+.col2 button{
+    width: 20%;
+    border-radius: 20%;
+    box-shadow:  10px 8px 10px #1a1a1a;
+    background-color: rgba(252, 232, 209, 0.801);
+    margin-left: 40%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+@media screen and (max-width: 480px) {
+    .col h5{
+        margin-left: 5%;
+    }
+    .col p{
+      margin-left: 5%;
+    }
+    .icon{
+        margin-left: 0%;
+    }
+    .col1 p {
+        margin-left: 5%;
+    }
+    .col2 button {
+        font-size: small;
+    }
+    .row1{
+        font-size: small;
+    }
+ }
+ @media screen and (max-width: 920px) {
+    .col h5{
+        margin-left: 3%;
+    }
+    .col h6{
+        margin-left: 3%;
+    }
+ }
+ 

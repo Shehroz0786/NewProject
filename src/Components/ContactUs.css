@@ -1,0 +1,93 @@
+.container4{
+    background-color: rgba(252, 232, 209, 0.801);
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+}
+.animation img{
+    width: 80%;
+    height: 80%;
+    border-radius: 100%;
+    margin-top: 5%;
+    box-shadow:  10px 8px 10px #1a1a1a;
+}
+.form input{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 10%;
+    margin-left: 10%;
+    box-shadow:  10px 8px 10px #1a1a1a;
+}
+.form textarea{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 10%;
+    margin-left: 10%;
+    box-shadow:  10px 8px 10px #1a1a1a;
+}
+.contactIcon{
+    margin-top: -2%;
+    padding-left: 20%;
+}
+.contactInfo{
+display: flex;
+margin-top: 0%;
+}
+.contactInfo h5{
+    margin-right: 3%;
+    cursor: pointer;
+}
+.contactInfo h6{
+    margin-top:0%;
+    cursor: pointer;
+}
+.form button{
+    width: 20%;
+    color: black;
+    box-shadow:  10px 8px 10px #1a1a1a;
+    border-radius: 10%;
+    margin-left: 10%;
+   
+}
+@media screen and (max-width: 480px) {
+    .form{
+        margin-left: -4%;
+    }
+    .contactInfo{
+        margin-top: 3%;
+    }
+    .contactInfo h5{
+        font-size: small;
+        margin-left: 8%;
+    }
+    .contactInfo h6{
+        font-size: small;
+        margin-left: 5%;
+    }
+    .form button{
+        margin-top: 5%;
+    }
+}
+@media screen and (max-width: 920px) {
+    .form{
+        margin-left: -4%;
+    }
+    .contactInfo{
+        margin-top: 3%;
+    }
+    .contactInfo h5{
+        font-size: small;
+        margin-left: 8%;
+    }
+    .contactInfo h6{
+        font-size: small;
+        margin-left: 5%;
+    }
+    .form button{
+        margin-top: 5%;
+    }
+}

@@ -1,0 +1,222 @@
+.container2{
+    background-color: rgba(252, 232, 209, 0.801);
+}
+.col1 h1{
+    font-weight: bolder;
+}
+.col1 h6{
+    margin-top: 2%;
+    margin-left: 5%;
+}
+.adult{
+    display: flex;
+    justify-content: end;
+    margin-top: -12%;
+    margin-right: 15%;
+    font-size: x-large;
+}
+.cnn1{
+    cursor: pointer;
+}
+.cnn3{
+    cursor: pointer;
+}
+.cnn4{
+    cursor: pointer;
+}
+.cnn6{
+    cursor: pointer;
+}
+.cnn7{
+    cursor: pointer;
+}
+.cnn9{
+    cursor: pointer;
+}
+.children{
+    display: flex;
+    justify-content: end;
+    margin-top: -12%;
+    margin-right: 15%;
+    font-size: x-large;
+}
+.room{
+    display: flex;
+    justify-content: end;
+    margin-top: -12%;
+    margin-right: 15%;
+    font-size: x-large;
+}
+.flag h4{
+    margin-left: 8%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.flag1{
+    font-size: x-large;
+  box-shadow:  10px 8px 10px #1a1a1a;
+  border-radius: 20%;
+}
+.flag2{
+    font-size: x-large;
+    box-shadow:  10px 8px 10px #1a1a1a;
+    border-radius: 20%;
+}
+.flag3 button{
+    font-size: x-large;
+    box-shadow:  10px 8px 10px #1a1a1a;
+    border-radius: 20%;
+}
+.flag4 button{
+    font-size: x-large;
+    box-shadow:  10px 8px 10px #1a1a1a;
+    background-color: rgb(24, 118, 124);
+    font-weight: bold;
+    border-radius: 20%;
+}
+.row2{
+    margin-left: 2%;
+    margin-top: 3%;
+    padding-bottom: 8%;
+}
+.c00{
+    width: 50%;
+    justify-content: center;
+    margin-top: 5%;
+    margin-left: 25%;
+}
+.c01{
+    width: 50%;
+    justify-content: center;
+    margin-left: 25%;
+    margin-bottom: 5%;
+}
+.pic img:hover{
+    margin-top: -3%;
+}
+.pic1 img:hover{
+    margin-top: -3%;
+    margin-bottom: 3%;
+}
+.pic2 img:hover{
+    margin-top: -3%;
+}
+.pic3 img:hover{
+    margin-top: -3%;
+}
+.pic4 img:hover{
+    margin-top: -3%;
+    margin-bottom: 3%;
+}
+.pic img{
+    background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 30%;
+  width:80%;
+  box-shadow:  10px 8px 10px #1a1a1a;
+  cursor: pointer;
+}
+.pic1 img{
+    background-repeat: no-repeat;
+  background-size: cover;
+  width:80%;
+  height: 75%;
+  border-radius: 30%;
+  box-shadow:  10px 8px 10px #1a1a1a;
+  cursor: pointer;
+}
+.pic2 img{
+    background-repeat: no-repeat;
+  background-size: cover;
+  width: 80%;
+  height: 100%;
+  border-radius: 30%;
+  box-shadow:  10px 8px 10px #1a1a1a;
+  cursor: pointer;
+}
+.pic3 img{
+    background-repeat: no-repeat;
+  background-size: cover;
+  width: 80%;
+  height: 100%;
+  border-radius: 30%;
+  box-shadow:  10px 8px 10px #1a1a1a;
+  cursor: pointer;
+}
+.pic4 img{
+    background-repeat: no-repeat;
+  background-size: cover;
+ width: 80%;
+ height: 100%;
+  border-radius: 30%;
+  box-shadow:  10px 8px 10px #1a1a1a;
+  cursor: pointer;
+}
+.colh h1{
+    font-weight: bold;
+    margin-bottom: 10%;
+}
+.main1{
+    padding-bottom: 5%;
+}
+@media screen and (max-width: 480px) {
+    .container2{
+        width: 56vh;
+    }
+    .pic{
+        margin-bottom: 5%;
+    }
+    .pic2{
+        margin-bottom: 5%;
+    }
+    .pic3{
+        margin-bottom: 5%;
+    }
+    .flag1{
+        margin-bottom: 5%;
+        margin-left: -5%;
+    }
+    .flag2{
+        margin-bottom: 5%;
+        margin-left: -5%;
+    }
+    .flag3{
+        margin-bottom: 5%;
+        margin-left: -5%;
+    }
+}
+@media screen and (max-width: 920px) {
+    .container2{
+        width: 70vh;
+    }
+    .pic{
+        margin-bottom: 5%;
+    }
+    .pic2{
+        margin-bottom: 5%;
+    }
+    .pic3{
+        margin-bottom: 5%;
+    }
+    .flag1{
+        margin-bottom: 5%;
+        margin-left: -5%;
+        font-size: xx-large;
+    }
+    .flag2{
+        margin-bottom: 5%;
+        margin-left: -5%;
+        font-size: xx-large;
+    }
+    .flag3 button{
+        margin-bottom: 5%;
+        margin-left: -5%;
+        font-size: xx-large;
+    }
+ 
+}
+
+
+
+
+
